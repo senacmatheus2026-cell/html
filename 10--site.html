@@ -14,16 +14,16 @@
     <nav>
         <ul>
             <li>
-                <a href="">Inicio</a>
+                <a href="#hero">Inicio</a>
             </li>
             <li>
-                <a href="">Sobre</a>
+                <a href="#sobre">Sobre</a>
             </li>
             <li>
-                <a href="">Instrumentos</a>
+                <a href="#Instrumentos">Instrumentos</a>
             </li>
             <li>
-                <a href="">Depoimento</a>
+                <a href="#depoimentos">Depoimento</a>
             </li>
             <li>
                 <a href="">Contato</a>
@@ -34,8 +34,126 @@
 
 <!--Conteúdo Principal-->
 <main>
-Conteúdo Principal
-</main>
+        <section id="hero">
+            <h2>o som da sua vida começa aqui</h2>
+            <p>
+                encontre as melhores marcas de violinos,trompetes ou violões
+            </p>
+            <img src="banda.jpg"
+                alt="banda de rock  em um show usando os instrumentos musical da compasso musical" width="600">
+            <br><br>
+            <a href="">ver as nossas ofertas</a>
+        </section>
+
+        <!--seção sobre-->
+        <section id="sobre">
+            <h2>sobre a compasso musical</h2>
+            <p>
+                nossa loja nasceu da paixão pela musica. nossa missão é netregar qualidade sonora tanto para quem esta
+                prendendo os primeiros acordes quantos para msucios profissionais.
+            </p>
+            <ul>
+                <li>todos os instrumentos por nossa equipe tecnica.</li>
+                <li>garantia estringida de fabrica.</li>
+                <li>suporte de atendimento feito por musicos reais</li>
+            </ul>
+        </section>
+
+        <!--instrumentos-->
+        <section id="instrumentos">
+            <h2>cátalogo</h2>
+            <article>
+                <h3>guitarra eletrica stratocaster</h3>
+                <img src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02"
+                    alt="imagem guitarra eletrica estratocaster" width="300">
+                <p>
+                    <strong>marca: </strong>Fender
+                </p>
+                <p>
+                    guitarra clássica de alta performace ideal para rock blues.
+                </p>
+                <p>
+                    <em>Preço: R$ 3.500,00</em>
+                </p>
+                <a href="#">Adicionar ao carrinho</a>
+            </article>
+
+            <article>
+                <h3>kit bateria</h3>
+                <img src="https://images.unsplash.com/photo-1461784121038-f088ca1e7714"
+                    alt="imagem de uma bateria musical" width="300">
+                <p>
+                    <strong>marca: </strong>Pearl
+                </p>
+                <p>
+                    kit bateria ideal para voce
+                </p>
+                <p>
+                    <em>Preço: R$ 22.500,00</em>
+                </p>
+                <a href="#">Adicionar ao carrinho</a>
+            </article>
+            </section>
+            
+            <!--Seção depoimentos-->
+            <section id="Depoimentos">
+                <h2>O que os nossos clientes dizem</h2>
+                <blockquote>
+                    <p>
+                        "A bateria chegou super rápido aqui em Cuiabá-MT e perfeitamente embalada, o som é íncrivel"
+                    </p>
+                    <footer>
+                        - <cite>Matheus Nunes, baterista</cite>
+                    </footer>
+                </blockquote>
+                <br>
+                <blockquote>
+                    <p>
+                        "comprei minha primeira guitarra no compasso musical, o atendimento me ajudou a escolher o modelo certo!"
+                    </p>
+                    <footer>
+                        <cite>Júlia, estudante de música</cite>
+                    </footer>
+                </blockquote>
+            </section>
+
+            <!--Seção contatos-->
+            <section id="contato">
+                <h2>Fale conosco</h2>
+                <p>
+                Tem duvidas sobre algum instrumento? Mande uma mensagem ou venha nos visitar
+                </p>
+                <address>
+                    <p>
+                    Loja física: <strong>Centro histórico de Cuiabá</strong>
+                    </p>
+                    <address>
+                        <form action="#">
+                            <label for="text">nome completo</label>
+                            <br>
+                            <input type="text" name="nome" id="nome" placeholder="digite seu nome" required>
+                            <br><br>
+                            <label for="email">email</label>
+                            <br>
+                            <input type="email" name="email" id="digite seu email" required>
+                            <br><br>
+                            <label for="departamento">Departamento</label>
+                            <br>
+                            <select name="departamento" id="departamento">
+                                <option value="vendas">vendas</option>
+                                <option value="suporte">suporte técnico</option>
+                                <option value="financeiro">financeiro</option>
+                                <option value="sugestão">Sugestões</option>
+                            </select>
+                            <br><br>
+                            <label for="Mansagem">Mensagem</label>
+                            <br>
+                            <textarea name="mensagem" id="mensagem" cols="10"></textarea>
+                            <br><br>
+                            <button type="submit">enviar mensagem</button>
+                        </form>
+            </section>
+    </main>
 
 <!--Rodapé Do Site-->
 <footer>
